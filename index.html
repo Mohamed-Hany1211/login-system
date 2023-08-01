@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- login page -->
+    <section class="Login vh-100 bg-black d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="login-box p-4 text-center shadow m-auto">
+                <h1>Smart Login System</h1>
+                <div class="inputs d-flex flex-column align-items-center">
+                    <input type="text" placeholder="Enter your name" id="name" class="form-control mb-3 d-none">
+                    <p class="message d-none"></p>
+                    <input type="text" placeholder="Enter your email" id="email" class="form-control mb-3">
+                    <p class="message"></p>
+                    <input type="text" placeholder="Enter password" id="password" class="form-control mb-3">
+                    <p class="message" id="last-p"></p>
+                </div>
+                <button class="btn mb-3" id="btn"><a href="#" class="balck" id="anchor">Login</a></button>
+                <p class="pra">Don’t have an account?<a href="./sign_up.html" class="left">Sign Up</a></p>
+            </div>
+        </div>
+    </section>
+<!-- --------------------------------------------- -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

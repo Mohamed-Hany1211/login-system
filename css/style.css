@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:black;
+    --second-color:#5fd44c;
+    --main-font-family:'Titillium Web', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+/* -------------------------------------------------------------------- */
+
+/* login section */
+
+.Login{
+    background-image: url(../imgs/razer-ths-logo.svg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+.login-box{
+    background-color:var(--main-color);
+    border: .0625rem solid rgb(128, 128, 128,0.65);
+    border-radius: .3125rem;
+    width: 50%;
+}
+
+.pra{
+    color: white;
+}
+.left{
+    margin-left: .3125rem;
+    color: var(--second-color);
+}
+
+.balck{
+    color: var(--main-color);
+}
+
+.login-box h1{
+    color: white;
+    font-family: var(--main-font-family);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom:1.25rem;
+}
+
+.login-box button{
+    background-color: var(--second-color);
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    font-size: 1.25rem;
+    font-weight: 500;
+    width:50%;
+}
+
+.login-box button:hover{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+
+
+.border-r{
+    border-radius: .3125rem;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    border: .0625rem solid var(--second-color);
+    border-radius: .3125rem;
+}
+
+.navbar-nav .nav-link.active:hover{
+    color: black;
+    background-color: var(--second-color);
+}
+
+
+.navbar-brand:hover{
+    color: white;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+}
+
+
+.message{
+    color: red;
+    font-size: .75rem;
+    font-family: var(--main-font-family);
+    font-weight: 100;
+    margin-right: auto;
+}
+
+
+.fa-check{
+    color: var(--second-color);
+}
+
+
+
+
